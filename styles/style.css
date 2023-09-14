@@ -1,5 +1,8 @@
 
-
+*{
+	margin: 0;
+	padding: 0;
+}
 
 #banner {
 	width:100%;
@@ -11,6 +14,7 @@
 }
 
 .titulo-principal {
+	text-align: flex-start;
 	padding-left: 20px;
 }
 
@@ -25,15 +29,33 @@
 }
 
 nav{
+	background-size: #040505;
+	display: flex;
+	justify-content:end;
 	
-	top:110px;
-	right: 0;
+	
 }
 
 
+
+
 nav li{
-	display: inline-block;
 	
+	display: inline-block;
+	margin: 0 0 0 15px;
+	
+	
+}
+
+nav a{
+	font-size:22px;
+	color:#040505;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #c78c19;
+    text-decoration: underline;
 }
 
 p {
