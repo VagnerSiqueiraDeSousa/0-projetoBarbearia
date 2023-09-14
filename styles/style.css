@@ -1,3 +1,6 @@
+
+
+
 #banner {
 	width:100%;
 }
@@ -13,6 +16,24 @@
 
 .titulo-centralizado {
 	text-align: center
+}
+
+.caixaPaginaPrincipal{
+	background: #CCCCCC;
+	padding: 60px;
+
+}
+
+nav{
+	
+	top:110px;
+	right: 0;
+}
+
+
+nav li{
+	display: inline-block;
+	
 }
 
 p {

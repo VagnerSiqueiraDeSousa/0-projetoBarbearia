@@ -1,0 +1,15 @@
+h1{
+    background-size:#040505;
+    font-size: 40px;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0  0 15px;
+}
